@@ -92,7 +92,7 @@ namespace Lab3
             }
             catch (FormatException ex)
             {
-                MessageBox.Show("Message encountered.\nInput string was not in a correct format." + ex.Message, name);
+                MessageBox.Show("Message encountered.\nInput string was not in the correct format." + ex.Message, name);
                 txtFutureValue.Focus();
             }
             catch (Exception ex)
