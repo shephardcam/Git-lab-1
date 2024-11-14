@@ -97,7 +97,7 @@ namespace Lab3
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred: " + ex.Message, "Error");
+                MessageBox.Show("An error occurred: " + ex.Message, "Error encountered");
             }
         }
 
